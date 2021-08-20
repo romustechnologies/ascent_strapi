@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/studentprofiles",
+      "handler": "studentprofile.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studentprofiles/count",
+      "handler": "studentprofile.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/studentprofiles/:id",
+      "handler": "studentprofile.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/studentprofiles",
+      "handler": "studentprofile.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/studentprofiles/:id",
+      "handler": "studentprofile.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/studentprofiles/:id",
+      "handler": "studentprofile.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

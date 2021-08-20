@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "studentprofiles",
+  "info": {
+    "name": "studentprofile",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "studentName": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "parentage": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "mobileNo": {
+      "type": "string",
+      "required": true
+    },
+    "qualification": {
+      "type": "string",
+      "required": true
+    },
+    "courseName": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
